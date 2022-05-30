@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm  "id=titlebar>
+  <a class="navbar-brand title" href="#">TRAININGS</a>
+  <ul class="navbar-nav">
+    <li>
+      <a class="nav-link" routerLink="/utilisateur" >Login</a>
+    </li>
+    <li class="nav-item">
+
+      <a class="nav-link" routerLink="/trainings">Liste des Formations</a>
+    </li>
+    <li>
+      <a class="nav-link" routerLink="/test">Contenu du Panier</a>
+    </li>
+    
+  </ul>
+    
+<div class="name">Bonjour : {{cartService.getCustomer().name}} {{cartService.getCustomer().firstName}} </div>
+
+</nav>
+<router-outlet></router-outlet>
